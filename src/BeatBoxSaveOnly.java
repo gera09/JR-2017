@@ -10,8 +10,8 @@ import java.awt.event.*;
 
 public class BeatBoxSaveOnly {  // implements MetaEventListener 
 
-      JPanel mainPanel;
-      ArrayList<JCheckBox> checkboxList;
+      private JPanel mainPanel;
+      private ArrayList<JCheckBox> checkboxList;
       // int bpm = 120;
       Sequencer sequencer;
       Sequence sequence;
